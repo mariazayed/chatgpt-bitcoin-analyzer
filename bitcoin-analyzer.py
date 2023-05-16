@@ -3,7 +3,7 @@ import json
 import requests
 import streamlit as st
 
-openai.api_key = "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"
+openai.api_key = "your-api-key"
 
 def BasicGeneration(userPrompt):
     completion = openai.ChatCompletion.create(
