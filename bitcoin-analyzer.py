@@ -14,9 +14,9 @@ def BasicGeneration(userPrompt):
     return completion.choices[0].message.content
 
 
-st.title('Bitcoin Analyzer With ChatGPT')
+st.title('Bitcoin Analyzer With ChatGPT 🤑')
 st.subheader(
-    'Subscribe to my channel!')
+    'Follow me for more useful content 😍')
 
 def GetBitCoinPrices():
     # Define the API endpoint and query parameters
